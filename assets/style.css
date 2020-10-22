@@ -1,0 +1,39 @@
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+#campo{
+    display: grid;
+    justify-content: center;
+}
+
+.vuoto{
+    height: 50px;
+    background-color: coral;
+}
+
+.mine{
+    height: 50px;
+    background-color: lightgreen;
+}
+
+.end{
+    display: flex;
+    margin-top: 20px;
+}
+
+.end #primo-bottone{
+    align-self: flex-start;
+    margin: auto;
+}
+
+.end #esito{
+    align-self: center;
+    margin: auto;
+}
+
+.end #secondo-bottone{
+    align-self: flex-end;
+    margin: auto;
+}
